@@ -1,0 +1,129 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(home.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: right;
+    overflow-x: hidden;
+}
+
+.view1 {
+	position: relative;
+	left: 5vw;
+	top: 15vw;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.822);
+	font-size:3vw;	
+}
+
+.text1{
+	position: relative;
+	left: 5vw;
+	top: 10vw;
+	text-align: left;
+	font-size:1vw;
+	color: rgba(255, 255, 255, 0.822);
+}
+.view2{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image2.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: right;
+	overflow-x: hidden;
+	color: rgba(255, 255, 255, 0.822);
+
+}
+
+.box{
+	border-radius: 1vw;
+	background: #ffffff25;
+	position: absolute;
+	top:150vh;
+	width: 20vw;
+	height: 10vw;
+	padding: 10px;
+	color: rgba(255, 255, 255, 0.822);
+}
+
+.text2{
+	text-align: center;
+	font-size:1vw;
+	color: rgba(255, 255, 255, 0.822);
+}
+
+
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size: 3vh;
+	font-weight: 700;
+}
+
+.main-nav li a:hover
+{
+	color: red;
+}
+
+.learnmore_button
+{
+	list-style: none;
+}
+
+.learnmore_button li
+{
+	display: inline-block;
+}
+
+.learnmore_button li b
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-size:1vw;
+	font-weight: 700;
+}
+
+.learnmore_button li.active b
+{
+	border-radius: 40px;
+	border: 1px solid white;
+}
+
+.learnmore_button li b:hover
+{
+	border-radius: 40px;
+	border: 1px solid white;
+	color: red;
+}
+
+
+.learnmore
+{
+	position: absolute;
+	top: 190vh;
+	left: 43vw;
+}
