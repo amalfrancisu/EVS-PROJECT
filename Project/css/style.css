@@ -98,7 +98,7 @@ header
 	display: inline-block;
 }
 
-.learnmore_button li b
+.learnmore_button li a
 {
 	color: white;
 	text-decoration: none;
@@ -107,13 +107,13 @@ header
 	font-weight: 700;
 }
 
-.learnmore_button li.active b
+.learnmore_button li.active a
 {
 	border-radius: 40px;
 	border: 1px solid white;
 }
 
-.learnmore_button li b:hover
+.learnmore_button li a:hover
 {
 	border-radius: 40px;
 	border: 1px solid white;
