@@ -64,9 +64,10 @@
 	color: white;
 	font-family: "Roboto", sans-sherif;
 	text-shadow: 2px 2px 2px #333;
+	font-size: 2vmax;
 }
 .box-text h1 {
-	font-size: 5vw;
+	/* font-size: 5vw; */
 	font-family: "Roboto", sans-sherif;
 }
 .box-text p {
