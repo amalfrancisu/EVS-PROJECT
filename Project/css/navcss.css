@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    background-image: url("../images/cheetah.jpg");
+    background-position: left 5% top 7%s;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+ 
+
+}
+
+ h1
+{
+    font-size: 700%;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    
+    margin-left: 100px;
+    margin-top: 30px;
+    
+} 
+
+.nav-link{
+    color: white;
+    font-size: 25px;
+}
+
+.navbar {
+    background:rgba(255, 255, 255, 0.096);
+}
+
+.container{
+    text-align: center;
+    display: block;
+}
+.q{
+    background-color: rgba(23, 19, 248, 0.616);
+    float: left;
+    font-size: 200%;
+    
+    margin: 5px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+.ans{
+    background-color: rgba(238, 130, 238, 0.637);
+    float: right;
+    font-size: 150%;
+    margin: 5px;
+    border-radius: 25px;
+
+}
+
+
+
+section div p{
+    color: white;
+    
+    /* font-size: 250%; */
+
+}
+
+footer {
+    text-align: center; 
+    font-family: serif;
+    clear: both;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+
+  /* @media screen and (min-width: 600px) 
+  {
+      .q{
+        font-size: 200%;
+      }
+      .ans{
+        font-size: 150%;
+      }
+  } */
+
+  
+  
