@@ -27,6 +27,7 @@
 
 body{
     background: black;
+    overflow-x: hidden;
 }
 
 #frame{
